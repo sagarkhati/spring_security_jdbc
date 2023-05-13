@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @EnableWebSecurity
-public class SecurityConfigWithoutHardcodedUsers extends WebSecurityConfigurerAdapter {
+public class SecurityConfigWithDbUsers extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	DataSource dataSource;
